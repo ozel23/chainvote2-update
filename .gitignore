@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Hardhat / Blockchain
+blockchain/cache/
+blockchain/artifacts/
+blockchain/coverage/
+blockchain/coverage.json
+blockchain/typechain/
+blockchain/typechain-types/
+
+# Environment variables (KEEP SECRETS SAFE!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Vite
+frontend/dist/
+frontend/.vite/
